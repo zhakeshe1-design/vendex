@@ -13,7 +13,7 @@ user_last_number = {}
 def start_handler(message):
     bot.send_message(
         message.chat.id,
-        "Привет!\n\nДля поиска введи:\n<code>/check номер</code>\nПример: <code>/check 79001234567</code>",
+        "Привет!\n\nДля поиска введи:\n<code>/check номер,фио,иин,эмайл</code>\nПример: <code>/check 79001234567</code>",
         parse_mode="HTML"
     )
 
